@@ -1,0 +1,762 @@
+{
+    "bdp:192.168.1.0/255.255.255.0:0:10.10.20.174": {
+        "ip": "10.10.20.174",
+        "name": "core-rtr02.virl.info",
+        "description": "Cisco IOS XR Software (Cisco IOS XRv Series)",
+        "icon": "router",
+        "user_id": "bdp",
+        "user_range": "192.168.1.0/255.255.255.0",
+        "version": 0,
+        "ICMP": false,
+        "SNMP": true,
+        "Arp": false,
+        "SNMP_LLDP": true,
+        "SNMP_CDP": false,
+        "in_range": true,
+        "neighbors": {
+            "bdp:192.168.1.0/255.255.255.0:0:10.10.20.172": {
+                "source_id": "bdp:192.168.1.0/255.255.255.0:0:10.10.20.174",
+                "des_id": "bdp:192.168.1.0/255.255.255.0:0:10.10.20.172",
+                "local_port": "Gi0/0/0/1",
+                "remote_port": "Gi0/3",
+                "ICMP_connection": false,
+                "SNMP_Arp_connection": false,
+                "SNMP_LLDP_connection": true,
+                "SNMP_CDP_connection": false
+            },
+            "bdp:192.168.1.0/255.255.255.0:0:unknown.dist-rtr01.virl.info": {
+                "source_id": "bdp:192.168.1.0/255.255.255.0:0:10.10.20.174",
+                "des_id": "bdp:192.168.1.0/255.255.255.0:0:unknown.dist-rtr01.virl.info",
+                "local_port": "Gi0/0/0/2",
+                "remote_port": "Gi3",
+                "ICMP_connection": false,
+                "SNMP_Arp_connection": false,
+                "SNMP_LLDP_connection": true,
+                "SNMP_CDP_connection": false
+            },
+            "bdp:192.168.1.0/255.255.255.0:0:10.10.20.176": {
+                "source_id": "bdp:192.168.1.0/255.255.255.0:0:10.10.20.174",
+                "des_id": "bdp:192.168.1.0/255.255.255.0:0:10.10.20.176",
+                "local_port": "Gi0/0/0/3",
+                "remote_port": "Gi3",
+                "ICMP_connection": false,
+                "SNMP_Arp_connection": false,
+                "SNMP_LLDP_connection": true,
+                "SNMP_CDP_connection": false
+            }
+        }
+    },
+    "bdp:192.168.1.0/255.255.255.0:0:10.10.20.176": {
+        "ip": "10.10.20.176",
+        "name": "dist-rtr02.virl.info",
+        "description": "Cisco IOS Software [Amsterdam]",
+        "icon": "router",
+        "user_id": "bdp",
+        "user_range": "192.168.1.0/255.255.255.0",
+        "version": 0,
+        "ICMP": false,
+        "SNMP": true,
+        "Arp": false,
+        "SNMP_LLDP": true,
+        "SNMP_CDP": false,
+        "in_range": true,
+        "neighbors": {
+            "bdp:192.168.1.0/255.255.255.0:0:10.10.20.174": {
+                "source_id": "bdp:192.168.1.0/255.255.255.0:0:10.10.20.176",
+                "des_id": "bdp:192.168.1.0/255.255.255.0:0:10.10.20.174",
+                "local_port": "Gi3",
+                "remote_port": "Gi0/0/0/3",
+                "ICMP_connection": false,
+                "SNMP_Arp_connection": false,
+                "SNMP_LLDP_connection": true,
+                "SNMP_CDP_connection": false
+            },
+            "bdp:192.168.1.0/255.255.255.0:0:unknown.dist-rtr01.virl.info": {
+                "source_id": "bdp:192.168.1.0/255.255.255.0:0:10.10.20.176",
+                "des_id": "bdp:192.168.1.0/255.255.255.0:0:unknown.dist-rtr01.virl.info",
+                "local_port": "Gi6",
+                "remote_port": "Gi6",
+                "ICMP_connection": false,
+                "SNMP_Arp_connection": false,
+                "SNMP_LLDP_connection": true,
+                "SNMP_CDP_connection": false
+            },
+            "bdp:192.168.1.0/255.255.255.0:0:10.10.20.255": {
+                "source_id": "bdp:192.168.1.0/255.255.255.0:0:10.10.20.176",
+                "des_id": "bdp:192.168.1.0/255.255.255.0:0:10.10.20.255",
+                "local_port": "Gi3",
+                "remote_port": "Gi0/0/0/3",
+                "ICMP_connection": false,
+                "SNMP_Arp_connection": false,
+                "SNMP_LLDP_connection": true,
+                "SNMP_CDP_connection": false
+            }
+        }
+    },
+    "bdp:192.168.1.0/255.255.255.0:0:10.10.20.255": {
+        "ip": "10.10.20.255",
+        "name": "core-rtr01.virl.info",
+        "description": "Cisco IOS XR Software (Cisco IOS XRv Series)",
+        "icon": "router",
+        "user_id": "bdp",
+        "user_range": "192.168.1.0/255.255.255.0",
+        "version": 0,
+        "ICMP": false,
+        "SNMP": true,
+        "Arp": false,
+        "SNMP_LLDP": true,
+        "SNMP_CDP": true,
+        "in_range": true,
+        "neighbors": {
+            "bdp:192.168.1.0/255.255.255.0:0:10.10.20.172": {
+                "source_id": "bdp:192.168.1.0/255.255.255.0:0:10.10.20.255",
+                "des_id": "bdp:192.168.1.0/255.255.255.0:0:10.10.20.172",
+                "local_port": "Gi0/0/0/1",
+                "remote_port": "Gi0/3",
+                "ICMP_connection": false,
+                "SNMP_Arp_connection": false,
+                "SNMP_LLDP_connection": true,
+                "SNMP_CDP_connection": true
+            },
+            "bdp:192.168.1.0/255.255.255.0:0:unknown.dist-rtr01.virl.info": {
+                "source_id": "bdp:192.168.1.0/255.255.255.0:0:10.10.20.255",
+                "des_id": "bdp:192.168.1.0/255.255.255.0:0:unknown.dist-rtr01.virl.info",
+                "local_port": "Gi0/0/0/2",
+                "remote_port": "Gi3",
+                "ICMP_connection": false,
+                "SNMP_Arp_connection": false,
+                "SNMP_LLDP_connection": true,
+                "SNMP_CDP_connection": true
+            },
+            "bdp:192.168.1.0/255.255.255.0:0:10.10.20.176": {
+                "source_id": "bdp:192.168.1.0/255.255.255.0:0:10.10.20.255",
+                "des_id": "bdp:192.168.1.0/255.255.255.0:0:10.10.20.176",
+                "local_port": "Gi0/0/0/3",
+                "remote_port": "Gi3",
+                "ICMP_connection": false,
+                "SNMP_Arp_connection": false,
+                "SNMP_LLDP_connection": true,
+                "SNMP_CDP_connection": false
+            }
+        }
+    },
+    "bdp:192.168.1.0/255.255.255.0:0:10.10.20.172": {
+        "ip": "10.10.20.172",
+        "name": "edge-sw01",
+        "description": "Cisco IOS Software",
+        "icon": "switch",
+        "user_id": "bdp",
+        "user_range": "192.168.1.0/255.255.255.0",
+        "version": 0,
+        "ICMP": false,
+        "SNMP": true,
+        "Arp": false,
+        "SNMP_LLDP": true,
+        "SNMP_CDP": true,
+        "in_range": true,
+        "neighbors": {
+            "bdp:192.168.1.0/255.255.255.0:0:10.10.20.174": {
+                "source_id": "bdp:192.168.1.0/255.255.255.0:0:10.10.20.172",
+                "des_id": "bdp:192.168.1.0/255.255.255.0:0:10.10.20.174",
+                "local_port": "Gi0/3",
+                "remote_port": "Gi0/0/0/1",
+                "ICMP_connection": false,
+                "SNMP_Arp_connection": false,
+                "SNMP_LLDP_connection": true,
+                "SNMP_CDP_connection": false
+            },
+            "bdp:192.168.1.0/255.255.255.0:0:10.10.20.255": {
+                "source_id": "bdp:192.168.1.0/255.255.255.0:0:10.10.20.172",
+                "des_id": "bdp:192.168.1.0/255.255.255.0:0:10.10.20.255",
+                "local_port": "Gi0/3",
+                "remote_port": "Gi0/0/0/1",
+                "ICMP_connection": false,
+                "SNMP_Arp_connection": false,
+                "SNMP_LLDP_connection": true,
+                "SNMP_CDP_connection": true
+            },
+            "bdp:192.168.1.0/255.255.255.0:0:unknown.dist-sw01(93YEY8KU3HT)": {
+                "source_id": "bdp:192.168.1.0/255.255.255.0:0:10.10.20.172",
+                "des_id": "bdp:192.168.1.0/255.255.255.0:0:unknown.dist-sw01(93YEY8KU3HT)",
+                "local_port": "GigabitEthernet0/0",
+                "remote_port": "mgmt0",
+                "ICMP_connection": false,
+                "SNMP_Arp_connection": false,
+                "SNMP_LLDP_connection": false,
+                "SNMP_CDP_connection": true
+            },
+            "bdp:192.168.1.0/255.255.255.0:0:unknown.dist-sw02(94O31JSLDN4)": {
+                "source_id": "bdp:192.168.1.0/255.255.255.0:0:10.10.20.172",
+                "des_id": "bdp:192.168.1.0/255.255.255.0:0:unknown.dist-sw02(94O31JSLDN4)",
+                "local_port": "GigabitEthernet0/0",
+                "remote_port": "mgmt0",
+                "ICMP_connection": false,
+                "SNMP_Arp_connection": false,
+                "SNMP_LLDP_connection": false,
+                "SNMP_CDP_connection": true
+            },
+            "bdp:192.168.1.0/255.255.255.0:0:10.10.20.173": {
+                "source_id": "bdp:192.168.1.0/255.255.255.0:0:10.10.20.172",
+                "des_id": "bdp:192.168.1.0/255.255.255.0:0:10.10.20.173",
+                "local_port": "GigabitEthernet0/2",
+                "remote_port": "GigabitEthernet0/0/0/1",
+                "ICMP_connection": false,
+                "SNMP_Arp_connection": false,
+                "SNMP_LLDP_connection": false,
+                "SNMP_CDP_connection": true
+            }
+        }
+    },
+    "bdp:192.168.1.0/255.255.255.0:0:10.10.20.173": {
+        "ip": "10.10.20.173",
+        "name": "core-rtr01.virl.info",
+        "description": "Cisco IOS XR Software (Cisco IOS XRv Series)",
+        "icon": "router",
+        "user_id": "bdp",
+        "user_range": "192.168.1.0/255.255.255.0",
+        "version": 0,
+        "ICMP": false,
+        "SNMP": true,
+        "Arp": false,
+        "SNMP_LLDP": false,
+        "SNMP_CDP": true,
+        "in_range": true,
+        "neighbors": {
+            "bdp:192.168.1.0/255.255.255.0:0:10.10.20.172": {
+                "source_id": "bdp:192.168.1.0/255.255.255.0:0:10.10.20.173",
+                "des_id": "bdp:192.168.1.0/255.255.255.0:0:10.10.20.172",
+                "local_port": "GigabitEthernet0/0/0/1",
+                "remote_port": "GigabitEthernet0/2",
+                "ICMP_connection": false,
+                "SNMP_Arp_connection": false,
+                "SNMP_LLDP_connection": false,
+                "SNMP_CDP_connection": true
+            },
+            "bdp:192.168.1.0/255.255.255.0:0:unknown.dist-rtr01.virl.info": {
+                "source_id": "bdp:192.168.1.0/255.255.255.0:0:10.10.20.173",
+                "des_id": "bdp:192.168.1.0/255.255.255.0:0:unknown.dist-rtr01.virl.info",
+                "local_port": "",
+                "remote_port": "GigabitEthernet2",
+                "ICMP_connection": false,
+                "SNMP_Arp_connection": false,
+                "SNMP_LLDP_connection": false,
+                "SNMP_CDP_connection": true
+            }
+        }
+    },
+    "bdp:192.168.1.0/255.255.255.0:0:unknown.dist-rtr01.virl.info": {
+        "ip": "unknown.dist-rtr01.virl.info",
+        "name": "dist-rtr01.virl.info",
+        "description": "Cisco IOS Software [Amsterdam]",
+        "icon": "router",
+        "user_id": "bdp",
+        "user_range": "192.168.1.0/255.255.255.0",
+        "version": 0,
+        "ICMP": false,
+        "SNMP": false,
+        "Arp": false,
+        "SNMP_LLDP": true,
+        "SNMP_CDP": true,
+        "in_range": true,
+        "neighbors": {
+            "bdp:192.168.1.0/255.255.255.0:0:10.10.20.174": {
+                "source_id": "bdp:192.168.1.0/255.255.255.0:0:unknown.dist-rtr01.virl.info",
+                "des_id": "bdp:192.168.1.0/255.255.255.0:0:10.10.20.174",
+                "local_port": "Gi3",
+                "remote_port": "Gi0/0/0/2",
+                "ICMP_connection": false,
+                "SNMP_Arp_connection": false,
+                "SNMP_LLDP_connection": true,
+                "SNMP_CDP_connection": false
+            },
+            "bdp:192.168.1.0/255.255.255.0:0:10.10.20.176": {
+                "source_id": "bdp:192.168.1.0/255.255.255.0:0:unknown.dist-rtr01.virl.info",
+                "des_id": "bdp:192.168.1.0/255.255.255.0:0:10.10.20.176",
+                "local_port": "Gi6",
+                "remote_port": "Gi6",
+                "ICMP_connection": false,
+                "SNMP_Arp_connection": false,
+                "SNMP_LLDP_connection": true,
+                "SNMP_CDP_connection": false
+            },
+            "bdp:192.168.1.0/255.255.255.0:0:10.10.20.255": {
+                "source_id": "bdp:192.168.1.0/255.255.255.0:0:unknown.dist-rtr01.virl.info",
+                "des_id": "bdp:192.168.1.0/255.255.255.0:0:10.10.20.255",
+                "local_port": "Gi3",
+                "remote_port": "Gi0/0/0/2",
+                "ICMP_connection": false,
+                "SNMP_Arp_connection": false,
+                "SNMP_LLDP_connection": true,
+                "SNMP_CDP_connection": true
+            },
+            "bdp:192.168.1.0/255.255.255.0:0:10.10.20.173": {
+                "source_id": "bdp:192.168.1.0/255.255.255.0:0:unknown.dist-rtr01.virl.info",
+                "des_id": "bdp:192.168.1.0/255.255.255.0:0:10.10.20.173",
+                "local_port": "GigabitEthernet2",
+                "remote_port": "",
+                "ICMP_connection": false,
+                "SNMP_Arp_connection": false,
+                "SNMP_LLDP_connection": false,
+                "SNMP_CDP_connection": true
+            }
+        }
+    },
+    "bdp:192.168.1.0/255.255.255.0:0:unknown.dist-sw01(93YEY8KU3HT)": {
+        "ip": "unknown.dist-sw01(93YEY8KU3HT)",
+        "name": "dist-sw01(93YEY8KU3HT)",
+        "description": "Cisco Nexus Operating System (NX-OS) Software",
+        "icon": "switch",
+        "user_id": "bdp",
+        "user_range": "192.168.1.0/255.255.255.0",
+        "version": 0,
+        "ICMP": false,
+        "SNMP": false,
+        "Arp": false,
+        "SNMP_LLDP": false,
+        "SNMP_CDP": true,
+        "in_range": true,
+        "neighbors": {
+            "bdp:192.168.1.0/255.255.255.0:0:10.10.20.172": {
+                "source_id": "bdp:192.168.1.0/255.255.255.0:0:unknown.dist-sw01(93YEY8KU3HT)",
+                "des_id": "bdp:192.168.1.0/255.255.255.0:0:10.10.20.172",
+                "local_port": "mgmt0",
+                "remote_port": "GigabitEthernet0/0",
+                "ICMP_connection": false,
+                "SNMP_Arp_connection": false,
+                "SNMP_LLDP_connection": false,
+                "SNMP_CDP_connection": true
+            }
+        }
+    },
+    "bdp:192.168.1.0/255.255.255.0:0:unknown.dist-sw02(94O31JSLDN4)": {
+        "ip": "unknown.dist-sw02(94O31JSLDN4)",
+        "name": "dist-sw02(94O31JSLDN4)",
+        "description": "Cisco Nexus Operating System (NX-OS) Software",
+        "icon": "switch",
+        "user_id": "bdp",
+        "user_range": "192.168.1.0/255.255.255.0",
+        "version": 0,
+        "ICMP": false,
+        "SNMP": false,
+        "Arp": false,
+        "SNMP_LLDP": false,
+        "SNMP_CDP": true,
+        "in_range": true,
+        "neighbors": {
+            "bdp:192.168.1.0/255.255.255.0:0:10.10.20.172": {
+                "source_id": "bdp:192.168.1.0/255.255.255.0:0:unknown.dist-sw02(94O31JSLDN4)",
+                "des_id": "bdp:192.168.1.0/255.255.255.0:0:10.10.20.172",
+                "local_port": "mgmt0",
+                "remote_port": "GigabitEthernet0/0",
+                "ICMP_connection": false,
+                "SNMP_Arp_connection": false,
+                "SNMP_LLDP_connection": false,
+                "SNMP_CDP_connection": true
+            }
+        }
+    },
+    "bdp:192.168.1.0/255.255.255.0:0:192.168.1.17": {
+        "ip": "192.168.1.17",
+        "name": "DESKTOP-E5CM1H5",
+        "description": "",
+        "icon": "host",
+        "user_id": "bdp",
+        "user_range": "192.168.1.0/255.255.255.0",
+        "version": 0,
+        "ICMP": true,
+        "SNMP": false,
+        "Arp": false,
+        "SNMP_LLDP": false,
+        "SNMP_CDP": false,
+        "in_range": true,
+        "neighbors": {
+            "bdp:192.168.1.0/255.255.255.0:0:192.168.1.1": {
+                "source_id": "bdp:192.168.1.0/255.255.255.0:0:192.168.1.17",
+                "des_id": "bdp:192.168.1.0/255.255.255.0:0:192.168.1.1",
+                "local_port": "",
+                "remote_port": "",
+                "ICMP_connection": true,
+                "SNMP_Arp_connection": false,
+                "SNMP_LLDP_connection": false,
+                "SNMP_CDP_connection": false
+            }
+        }
+    },
+    "bdp:192.168.1.0/255.255.255.0:0:192.168.1.1": {
+        "ip": "192.168.1.1",
+        "name": "router.lan",
+        "description": "",
+        "icon": "router",
+        "user_id": "bdp",
+        "user_range": "192.168.1.0/255.255.255.0",
+        "version": 0,
+        "ICMP": true,
+        "SNMP": false,
+        "Arp": false,
+        "SNMP_LLDP": false,
+        "SNMP_CDP": false,
+        "in_range": true,
+        "neighbors": {
+            "bdp:192.168.1.0/255.255.255.0:0:192.168.1.17": {
+                "source_id": "bdp:192.168.1.0/255.255.255.0:0:192.168.1.1",
+                "des_id": "bdp:192.168.1.0/255.255.255.0:0:192.168.1.17",
+                "local_port": "",
+                "remote_port": "",
+                "ICMP_connection": true,
+                "SNMP_Arp_connection": false,
+                "SNMP_LLDP_connection": false,
+                "SNMP_CDP_connection": false
+            },
+            "bdp:192.168.1.0/255.255.255.0:0:172.20.0.32": {
+                "source_id": "bdp:192.168.1.0/255.255.255.0:0:192.168.1.1",
+                "des_id": "bdp:192.168.1.0/255.255.255.0:0:172.20.0.32",
+                "local_port": "",
+                "remote_port": "",
+                "ICMP_connection": true,
+                "SNMP_Arp_connection": false,
+                "SNMP_LLDP_connection": false,
+                "SNMP_CDP_connection": false
+            }
+        }
+    },
+    "bdp:192.168.1.0/255.255.255.0:0:192.168.1.41": {
+        "ip": "192.168.1.41",
+        "name": "DESKTOP-V5MAKAH",
+        "description": "",
+        "icon": "host",
+        "user_id": "bdp",
+        "user_range": "192.168.1.0/255.255.255.0",
+        "version": 0,
+        "ICMP": true,
+        "SNMP": false,
+        "Arp": false,
+        "SNMP_LLDP": false,
+        "SNMP_CDP": false,
+        "in_range": true,
+        "neighbors": {}
+    },
+    "bdp:192.168.1.0/255.255.255.0:0:192.168.1.31": {
+        "ip": "192.168.1.31",
+        "name": "DESKTOP-2NIHVT2",
+        "description": "",
+        "icon": "host",
+        "user_id": "bdp",
+        "user_range": "192.168.1.0/255.255.255.0",
+        "version": 0,
+        "ICMP": true,
+        "SNMP": false,
+        "Arp": false,
+        "SNMP_LLDP": false,
+        "SNMP_CDP": false,
+        "in_range": true,
+        "neighbors": {}
+    },
+    "bdp:192.168.1.0/255.255.255.0:0:192.168.1.16": {
+        "ip": "192.168.1.16",
+        "name": "",
+        "description": "",
+        "icon": "",
+        "user_id": "bdp",
+        "user_range": "192.168.1.0/255.255.255.0",
+        "version": 0,
+        "ICMP": true,
+        "SNMP": false,
+        "Arp": false,
+        "SNMP_LLDP": false,
+        "SNMP_CDP": false,
+        "in_range": true,
+        "neighbors": {}
+    },
+    "bdp:192.168.1.0/255.255.255.0:0:192.168.1.10": {
+        "ip": "192.168.1.10",
+        "name": "",
+        "description": "",
+        "icon": "",
+        "user_id": "bdp",
+        "user_range": "192.168.1.0/255.255.255.0",
+        "version": 0,
+        "ICMP": true,
+        "SNMP": false,
+        "Arp": false,
+        "SNMP_LLDP": false,
+        "SNMP_CDP": false,
+        "in_range": true,
+        "neighbors": {}
+    },
+    "bdp:192.168.1.0/255.255.255.0:0:192.168.1.23": {
+        "ip": "192.168.1.23",
+        "name": "",
+        "description": "",
+        "icon": "",
+        "user_id": "bdp",
+        "user_range": "192.168.1.0/255.255.255.0",
+        "version": 0,
+        "ICMP": true,
+        "SNMP": false,
+        "Arp": false,
+        "SNMP_LLDP": false,
+        "SNMP_CDP": false,
+        "in_range": true,
+        "neighbors": {}
+    },
+    "bdp:192.168.1.0/255.255.255.0:0:192.168.1.21": {
+        "ip": "192.168.1.21",
+        "name": "",
+        "description": "",
+        "icon": "",
+        "user_id": "bdp",
+        "user_range": "192.168.1.0/255.255.255.0",
+        "version": 0,
+        "ICMP": true,
+        "SNMP": false,
+        "Arp": false,
+        "SNMP_LLDP": false,
+        "SNMP_CDP": false,
+        "in_range": true,
+        "neighbors": {}
+    },
+    "bdp:192.168.1.0/255.255.255.0:0:192.168.1.38": {
+        "ip": "192.168.1.38",
+        "name": "",
+        "description": "",
+        "icon": "",
+        "user_id": "bdp",
+        "user_range": "192.168.1.0/255.255.255.0",
+        "version": 0,
+        "ICMP": true,
+        "SNMP": false,
+        "Arp": false,
+        "SNMP_LLDP": false,
+        "SNMP_CDP": false,
+        "in_range": true,
+        "neighbors": {}
+    },
+    "bdp:192.168.1.0/255.255.255.0:0:192.168.1.30": {
+        "ip": "192.168.1.30",
+        "name": "",
+        "description": "",
+        "icon": "",
+        "user_id": "bdp",
+        "user_range": "192.168.1.0/255.255.255.0",
+        "version": 0,
+        "ICMP": true,
+        "SNMP": false,
+        "Arp": false,
+        "SNMP_LLDP": false,
+        "SNMP_CDP": false,
+        "in_range": true,
+        "neighbors": {}
+    },
+    "bdp:192.168.1.0/255.255.255.0:0:172.20.0.32": {
+        "ip": "172.20.0.32",
+        "name": "",
+        "description": "",
+        "icon": "",
+        "user_id": "bdp",
+        "user_range": "192.168.1.0/255.255.255.0",
+        "version": 0,
+        "ICMP": true,
+        "SNMP": false,
+        "Arp": false,
+        "SNMP_LLDP": false,
+        "SNMP_CDP": false,
+        "in_range": true,
+        "neighbors": {
+            "bdp:192.168.1.0/255.255.255.0:0:192.168.1.1": {
+                "source_id": "bdp:192.168.1.0/255.255.255.0:0:172.20.0.32",
+                "des_id": "bdp:192.168.1.0/255.255.255.0:0:192.168.1.1",
+                "local_port": "",
+                "remote_port": "",
+                "ICMP_connection": true,
+                "SNMP_Arp_connection": false,
+                "SNMP_LLDP_connection": false,
+                "SNMP_CDP_connection": false
+            },
+            "bdp:192.168.1.0/255.255.255.0:0:172.16.25.105": {
+                "source_id": "bdp:192.168.1.0/255.255.255.0:0:172.20.0.32",
+                "des_id": "bdp:192.168.1.0/255.255.255.0:0:172.16.25.105",
+                "local_port": "",
+                "remote_port": "",
+                "ICMP_connection": true,
+                "SNMP_Arp_connection": false,
+                "SNMP_LLDP_connection": false,
+                "SNMP_CDP_connection": false
+            }
+        }
+    },
+    "bdp:192.168.1.0/255.255.255.0:0:172.16.25.105": {
+        "ip": "172.16.25.105",
+        "name": "",
+        "description": "",
+        "icon": "",
+        "user_id": "bdp",
+        "user_range": "192.168.1.0/255.255.255.0",
+        "version": 0,
+        "ICMP": true,
+        "SNMP": false,
+        "Arp": false,
+        "SNMP_LLDP": false,
+        "SNMP_CDP": false,
+        "in_range": true,
+        "neighbors": {
+            "bdp:192.168.1.0/255.255.255.0:0:172.20.0.32": {
+                "source_id": "bdp:192.168.1.0/255.255.255.0:0:172.16.25.105",
+                "des_id": "bdp:192.168.1.0/255.255.255.0:0:172.20.0.32",
+                "local_port": "",
+                "remote_port": "",
+                "ICMP_connection": true,
+                "SNMP_Arp_connection": false,
+                "SNMP_LLDP_connection": false,
+                "SNMP_CDP_connection": false
+            },
+            "bdp:192.168.1.0/255.255.255.0:0:172.16.24.22": {
+                "source_id": "bdp:192.168.1.0/255.255.255.0:0:172.16.25.105",
+                "des_id": "bdp:192.168.1.0/255.255.255.0:0:172.16.24.22",
+                "local_port": "",
+                "remote_port": "",
+                "ICMP_connection": true,
+                "SNMP_Arp_connection": false,
+                "SNMP_LLDP_connection": false,
+                "SNMP_CDP_connection": false
+            }
+        }
+    },
+    "bdp:192.168.1.0/255.255.255.0:0:172.16.24.22": {
+        "ip": "172.16.24.22",
+        "name": "",
+        "description": "",
+        "icon": "",
+        "user_id": "bdp",
+        "user_range": "192.168.1.0/255.255.255.0",
+        "version": 0,
+        "ICMP": true,
+        "SNMP": false,
+        "Arp": false,
+        "SNMP_LLDP": false,
+        "SNMP_CDP": false,
+        "in_range": true,
+        "neighbors": {
+            "bdp:192.168.1.0/255.255.255.0:0:172.16.25.105": {
+                "source_id": "bdp:192.168.1.0/255.255.255.0:0:172.16.24.22",
+                "des_id": "bdp:192.168.1.0/255.255.255.0:0:172.16.25.105",
+                "local_port": "",
+                "remote_port": "",
+                "ICMP_connection": true,
+                "SNMP_Arp_connection": false,
+                "SNMP_LLDP_connection": false,
+                "SNMP_CDP_connection": false
+            },
+            "bdp:192.168.1.0/255.255.255.0:0:8.8.8.8": {
+                "source_id": "bdp:192.168.1.0/255.255.255.0:0:172.16.24.22",
+                "des_id": "bdp:192.168.1.0/255.255.255.0:0:8.8.8.8",
+                "local_port": "",
+                "remote_port": "",
+                "ICMP_connection": true,
+                "SNMP_Arp_connection": false,
+                "SNMP_LLDP_connection": false,
+                "SNMP_CDP_connection": false
+            },
+            "bdp:192.168.1.0/255.255.255.0:0:13.107.222.39": {
+                "source_id": "bdp:192.168.1.0/255.255.255.0:0:172.16.24.22",
+                "des_id": "bdp:192.168.1.0/255.255.255.0:0:13.107.222.39",
+                "local_port": "",
+                "remote_port": "",
+                "ICMP_connection": true,
+                "SNMP_Arp_connection": false,
+                "SNMP_LLDP_connection": false,
+                "SNMP_CDP_connection": false
+            },
+            "bdp:192.168.1.0/255.255.255.0:0:150.171.10.39": {
+                "source_id": "bdp:192.168.1.0/255.255.255.0:0:172.16.24.22",
+                "des_id": "bdp:192.168.1.0/255.255.255.0:0:150.171.10.39",
+                "local_port": "",
+                "remote_port": "",
+                "ICMP_connection": true,
+                "SNMP_Arp_connection": false,
+                "SNMP_LLDP_connection": false,
+                "SNMP_CDP_connection": false
+            }
+        }
+    },
+    "bdp:192.168.1.0/255.255.255.0:0:8.8.8.8": {
+        "ip": "8.8.8.8",
+        "name": "dns.google",
+        "description": "",
+        "icon": "",
+        "user_id": "bdp",
+        "user_range": "192.168.1.0/255.255.255.0",
+        "version": 0,
+        "ICMP": true,
+        "SNMP": false,
+        "Arp": false,
+        "SNMP_LLDP": false,
+        "SNMP_CDP": false,
+        "in_range": true,
+        "neighbors": {
+            "bdp:192.168.1.0/255.255.255.0:0:172.16.24.22": {
+                "source_id": "bdp:192.168.1.0/255.255.255.0:0:8.8.8.8",
+                "des_id": "bdp:192.168.1.0/255.255.255.0:0:172.16.24.22",
+                "local_port": "",
+                "remote_port": "",
+                "ICMP_connection": true,
+                "SNMP_Arp_connection": false,
+                "SNMP_LLDP_connection": false,
+                "SNMP_CDP_connection": false
+            }
+        }
+    },
+    "bdp:192.168.1.0/255.255.255.0:0:13.107.222.39": {
+        "ip": "13.107.222.39",
+        "name": "ns3-39.azure-dns.org",
+        "description": "",
+        "icon": "",
+        "user_id": "bdp",
+        "user_range": "192.168.1.0/255.255.255.0",
+        "version": 0,
+        "ICMP": true,
+        "SNMP": false,
+        "Arp": false,
+        "SNMP_LLDP": false,
+        "SNMP_CDP": false,
+        "in_range": true,
+        "neighbors": {
+            "bdp:192.168.1.0/255.255.255.0:0:172.16.24.22": {
+                "source_id": "bdp:192.168.1.0/255.255.255.0:0:13.107.222.39",
+                "des_id": "bdp:192.168.1.0/255.255.255.0:0:172.16.24.22",
+                "local_port": "",
+                "remote_port": "",
+                "ICMP_connection": true,
+                "SNMP_Arp_connection": false,
+                "SNMP_LLDP_connection": false,
+                "SNMP_CDP_connection": false
+            }
+        }
+    },
+    "bdp:192.168.1.0/255.255.255.0:0:150.171.10.39": {
+        "ip": "150.171.10.39",
+        "name": "ns1-39.azure-dns.com",
+        "description": "",
+        "icon": "",
+        "user_id": "bdp",
+        "user_range": "192.168.1.0/255.255.255.0",
+        "version": 0,
+        "ICMP": true,
+        "SNMP": false,
+        "Arp": false,
+        "SNMP_LLDP": false,
+        "SNMP_CDP": false,
+        "in_range": true,
+        "neighbors": {
+            "bdp:192.168.1.0/255.255.255.0:0:172.16.24.22": {
+                "source_id": "bdp:192.168.1.0/255.255.255.0:0:150.171.10.39",
+                "des_id": "bdp:192.168.1.0/255.255.255.0:0:172.16.24.22",
+                "local_port": "",
+                "remote_port": "",
+                "ICMP_connection": true,
+                "SNMP_Arp_connection": false,
+                "SNMP_LLDP_connection": false,
+                "SNMP_CDP_connection": false
+            }
+        }
+    }
+}

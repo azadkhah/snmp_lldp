@@ -1,0 +1,6 @@
+
+xpython:S1192b"`Define a constant instead of duplicating this literal 'Missing entire value for OID={}' 3 times.(ÎéÆñ
+npython:S1192]"QDefine a constant instead of duplicating this literal 'No OID provided.' 3 times.(ÔáÑìıÿÿÿÿ
+dpython:S2208"GImport only needed names or import the module and then use its members.(ùíøÉşÿÿÿÿ
+@python:S1481F"(Remove the unused local variable "args".(öºõ
+lpython:S3776–"TRefactor this function to reduce its Cognitive Complexity from 17 to the 15 allowed.(œŸ²_

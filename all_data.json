@@ -1,0 +1,17 @@
+{
+    "faraz-ubuntu": {
+        "ip": "192.168.1.40",
+        "description": "Linux faraz-ubuntu 5.15.0-41-generic #44~20.04.1-Ubuntu SMP Fri Jun 24 13:27:29 UTC 2022 x86_64",
+        "neighbors": []
+    },
+    "mah": {
+        "ip": "192.168.1.27",
+        "description": "Linux mah 5.15.0-46-generic #49-Ubuntu SMP Thu Aug 4 18:08:11 UTC 2022 aarch64",
+        "neighbors": []
+    },
+    "mahshids-MacBook-Pro.local": {
+        "ip": "192.168.1.15",
+        "description": "Darwin mahshids-MacBook-Pro.local 21.3.0 Darwin Kernel Version 21.3.0: Wed Jan  5 21:37:58 PST 2022; root:xnu-8019.80.24~20/RELEASE_ARM64_T6000 arm64",
+        "neighbors": []
+    }
+}

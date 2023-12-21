@@ -1,0 +1,7 @@
+
+apython:S100E"KRename method "dictGet" to match the regular expression ^[a-z_][a-z0-9_]*$.(±²šZ
+bpython:S100]"KRename method "walkGet" to match the regular expression ^[a-z_][a-z0-9_]*$.(Ûï¢Ô
+vpython:S117e"_Rename this parameter "keepValuesOnFailure" to match the regular expression ^[_a-z][a-z0-9_]*$.(Å€ïƒ
+gpython:S100e"PRename method "populateDict" to match the regular expression ^[a-z_][a-z0-9_]*$.(Å€ïƒ
+{python:S117s"_Rename this parameter "keepValuesOnFailure" to match the regular expression ^[_a-z][a-z0-9_]*$.(°ß´¯üÿÿÿÿ
+lpython:S100s"PRename method "populateList" to match the regular expression ^[a-z_][a-z0-9_]*$.(°ß´¯üÿÿÿÿ

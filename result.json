@@ -1,0 +1,127 @@
+{
+    "edge-sw01": {
+        "ip": "10.10.20.172",
+        "neighbors": [
+            {
+                "name": "core-rtr01.virl.info",
+                "local_port": "3",
+                "remote_port": "3"
+            },
+            {
+                "name": "core-rtr02.virl.info",
+                "local_port": "4",
+                "remote_port": "3"
+            }
+        ]
+    },
+    "core-rtr01.virl.info": {
+        "ip": "10.10.20.173",
+        "neighbors": [
+            {
+                "name": "core-rtr02.virl.info",
+                "local_port": "3",
+                "remote_port": "3"
+            },
+            {
+                "name": "edge-sw01",
+                "local_port": "4",
+                "remote_port": "0"
+            },
+            {
+                "name": "dist-rtr01.virl.info",
+                "local_port": "5",
+                "remote_port": "3"
+            },
+            {
+                "name": "dist-rtr02.virl.info",
+                "local_port": "6",
+                "remote_port": "3"
+            }
+        ]
+    },
+    "core-rtr02.virl.info": {
+        "ip": "10.10.20.174",
+        "neighbors": [
+            {
+                "name": "core-rtr01.virl.info",
+                "local_port": "3",
+                "remote_port": "3"
+            },
+            {
+                "name": "edge-sw01",
+                "local_port": "4",
+                "remote_port": "0"
+            },
+            {
+                "name": "dist-rtr01.virl.info",
+                "local_port": "5",
+                "remote_port": "3"
+            },
+            {
+                "name": "dist-rtr02.virl.info",
+                "local_port": "6",
+                "remote_port": "3"
+            }
+        ]
+    },
+    "dist-rtr01.virl.info": {
+        "ip": "10.10.20.175",
+        "neighbors": [
+            {
+                "name": "core-rtr01.virl.info",
+                "local_port": "2",
+                "remote_port": "3"
+            },
+            {
+                "name": "core-rtr02.virl.info",
+                "local_port": "3",
+                "remote_port": "3"
+            },
+            {
+                "name": "dist-sw01",
+                "local_port": "4",
+                "remote_port": "3"
+            },
+            {
+                "name": "dist-sw02",
+                "local_port": "5",
+                "remote_port": "3"
+            },
+            {
+                "name": "dist-rtr02.virl.info",
+                "local_port": "6",
+                "remote_port": "3"
+            }
+        ]
+    },
+    "dist-rtr02.virl.info": {
+        "ip": "10.10.20.176",
+        "neighbors": [
+            {
+                "name": "core-rtr01.virl.info",
+                "local_port": "2",
+                "remote_port": "3"
+            },
+            {
+                "name": "core-rtr02.virl.info",
+                "local_port": "3",
+                "remote_port": "3"
+            },
+            {
+                "name": "dist-sw01",
+                "local_port": "4",
+                "remote_port": "3"
+            },
+            {
+                "name": "dist-sw02",
+                "local_port": "5",
+                "remote_port": "3"
+            },
+            {
+                "name": "dist-rtr01.virl.info",
+                "local_port": "6",
+                "remote_port": "3"
+            }
+        ]
+    }
+}

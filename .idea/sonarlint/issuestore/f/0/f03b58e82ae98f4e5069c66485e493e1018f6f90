@@ -1,0 +1,14 @@
+
+qpython:S116 "TRename this field "deviceFamily" to match the regular expression ^[_a-z][_a-z0-9]*$.(æ„—şÿÿÿÿ
+jpython:S100"NRename method "snmpConfig" to match the regular expression ^[a-z_][a-z0-9_]*$.(­€éÎøÿÿÿÿ
+cpython:S100"LRename method "snmpTest" to match the regular expression ^[a-z_][a-z0-9_]*$.(ÂËçÊ
+ppython:S100'"TRename method "getInterfaceName" to match the regular expression ^[a-z_][a-z0-9_]*$.(Íáºùÿÿÿÿ
+kpython:S1004"TRename method "getInterfaceDesc" to match the regular expression ^[a-z_][a-z0-9_]*$.(õæüí
+mpython:S100D"VRename method "getParentInterface" to match the regular expression ^[a-z_][a-z0-9_]*$.(Üßóÿ
+spython:S117b"\Rename this local variable "speedInBits" to match the regular expression ^[_a-z][a-z0-9_]*$.(§öÇ
+lpython:S100W"URename method "getInterfaceSpeed" to match the regular expression ^[a-z_][a-z0-9_]*$.(‡±˜
+Bpython:S5806]"+Rename this variable; it shadows a builtin.(æÏ–
+mpython:S100j"QRename method "getNeighbours" to match the regular expression ^[a-z_][a-z0-9_]*$.(µ°éŒÿÿÿÿÿ
+ypython:S100u"]Rename method "getNeighbourInterfaceInfo" to match the regular expression ^[a-z_][a-z0-9_]*$.(—Õÿ’øÿÿÿÿ
+upython:S117‘"]Rename this local variable "deviceFamily" to match the regular expression ^[_a-z][a-z0-9_]*$.(ŠÆ«Á
+ipython:S100"QRename method "getDeviceInfo" to match the regular expression ^[a-z_][a-z0-9_]*$.(Æº¤æ
